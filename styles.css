@@ -1,0 +1,37 @@
+body {
+    background: url('assets/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 600px;
+}
+
+.mensaje {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    min-height: 80px;
+    transition: opacity 0.5s;
+}
+
+audio {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.footer {
+    margin-top: 1rem;
+    font-style: italic;
+}
